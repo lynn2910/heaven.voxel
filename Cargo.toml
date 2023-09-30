@@ -1,2 +1,8 @@
 [workspace]
-members = []
+members = [
+    "app",
+    "core",
+    "voxels"
+]
+
+resolver = "2"
