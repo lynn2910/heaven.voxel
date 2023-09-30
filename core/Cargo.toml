@@ -6,3 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+glutin = { workspace = true }
+gl = { workspace = true }
+glium = { workspace = true }

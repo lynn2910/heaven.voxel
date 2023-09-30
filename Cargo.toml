@@ -4,5 +4,14 @@ members = [
     "core",
     "voxels"
 ]
-
 resolver = "2"
+
+[workspace.dependencies]
+glutin = "0.30.10"
+gl = "0.14.0"
+glium = "0.32.1"
+
+serde = "1.0.188"
+serde_json = "1.0.107"
+rand = "0.8.5"
+uuid = "1.4.1"
